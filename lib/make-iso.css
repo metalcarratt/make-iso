@@ -1,0 +1,15 @@
+.iso {
+    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
+}
+  
+.iso .wall_north {
+    width: 100%;
+    position: absolute;
+    transform: skew(-45deg);
+}
+  
+.iso .wall_east {
+    height: 100%;
+    position: absolute;
+    transform: skew(0, -45deg);
+}

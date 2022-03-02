@@ -1,0 +1,53 @@
+.outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+.floor {
+    background-color: #f7f7b7;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+  
+.wall_north {
+    height: 70px;
+    background-color: #9f9d9d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+  
+.wall_east {
+    width: 70px;
+    display: inline-block;
+    background-color: #585858;
+}
+  
+.pool {
+    background-color: #8181fe;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: inset -5px 5px;
+}
+  
+.window {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-color: #cbfffd;
+    margin-bottom: 25px;
+    box-shadow: inset -2px -2px;
+}
+
+.door {
+    width: 35px;
+    height: 60px;
+    display: inline-block;
+    background-color: #e3f67c;
+    box-shadow: inset -2px -2px;
+}

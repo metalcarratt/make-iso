@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Make ISO</title>
+
+    <!-- Make ISO imports -->
+    <link rel="stylesheet" href="lib/make-iso.css">
+    <script src="lib/make-iso.js"></script>
+
+    <!-- Example imports -->
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<h1>Make ISO</h1>
+
+<p>This is an example of using the 'make-iso' files found in the 'lib' folder of this project.</p>
+
+<p>
+    'make-iso' can make your flat house floorplan like isometrical. Just add the class 'iso' to the outer container of your floor plan.
+    Add a 'wall_north' and 'wall_east' inside a floor to build the walls. The rest is up to your imagination.
+</p>
+
+<div class="outer">
+    <span class="floor iso">
+        <span class="wall_north">
+            <span class="window"></span>
+            <span class="door"></span>
+            <span class="window"></span>
+        </span>
+        <span class="wall_east"></span>
+        <span class="pool"></span>
+    </span>  
+</div>
+
+</body>
+</html>
